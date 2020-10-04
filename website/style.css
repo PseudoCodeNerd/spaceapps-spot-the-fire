@@ -1,0 +1,172 @@
+body,
+html {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #383838;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    color: #383838;
+  }
+
+  #navbar {
+    padding: 30px 100px !important;
+    background-color: #f8f9fa;
+  }
+    
+  nav img {
+    height: 8vh;
+    width: auto;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
+  }
+  
+  #nav-link{
+      padding-top: 8px;
+      margin: 0 20px;
+  }
+
+  #nav-link:hover {
+    color: #E93423 !important;
+  }
+
+  .nav-button {
+    padding: 2px !important;
+    position: relative;
+    --time: 0.5s;
+    transition: box-shadow var(--time) ease, background var(--time) ease;
+    border: 0px;
+  }
+  
+  .nav-button:hover {
+    box-shadow: none;
+    background: linear-gradient(-135deg, #F47435 0%, #E93423 50%, #A31E53 100%);
+  }
+
+  #button-link {
+    color: #fff !important;
+  }
+  
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-weight: 600 !important;
+}
+
+.header {
+    padding: 0px 250px;
+}
+
+#subheader {
+    letter-spacing: 2px;
+}
+
+.lead-btn {
+    padding: 12px 25px;
+    position: relative;
+    --time: 0.5s;
+    transition: box-shadow var(--time) ease, background var(--time) ease;
+    border: 0px;
+}
+
+.lead-btn:hover {
+    background: linear-gradient(-135deg, #F47435 0%, #E93423 50%, #A31E53 100%);
+}
+
+.row {
+    display: flex;
+}
+
+#about {
+    margin-top: 100px;
+    padding: 0px 60px;
+}
+
+#card{
+    position: relative !important;
+    border: 0px;
+    background-color: #f8f9fa;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 14rem;
+  }
+
+  #card-body {
+      padding: 1.25rem 0rem;
+  }
+  
+ #card-img-top {
+     width: 30%;
+ }
+
+  #card-title2{
+    font-size: 16px;
+    color: #000000;
+    margin: 0px;
+    font-weight: 400;
+  }
+  
+  #card-subtitle{
+    font-size: 16px;
+    color: #6b6b6b;
+  }
+  
+  #card-text{
+    font-size: 16px;
+    color: #6b6b6b;
+  }
+
+  @media screen and (max-width: 1024px) {
+    #card {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 0px;
+    width: 12rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        padding: 0px 75px;
+    }
+    .row{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+
+  @media screen and (max-width: 576px) {
+    .header {
+        padding: 0px 15px;
+    }
+    
+    #title {
+        font-size: 80px;
+    }
+
+    #about {
+        margin-top: 10px;
+        padding: 0px 10px;
+    }
+
+    #navbar {
+        padding: 30px 40px !important;
+      }
+  }
